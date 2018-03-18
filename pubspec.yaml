@@ -1,0 +1,14 @@
+name: screentheme
+description: Flutter plugin to change the theme (light / dark) of the status & navigation bars
+version: 0.0.1
+author: Edouard Marquez
+homepage: https://github.com/g123k/flutter-screen-theme-plugin
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+flutter:
+  plugin:
+    androidPackage: fr.g123k.screentheme
+    pluginClass: ScreenThemePlugin
