@@ -1,6 +1,6 @@
 # Flutter Screen Theme plugin
 
-This plugin for \[Flutter\](https://flutter.io) adds the ability to change the status bar theme: light or dark (Android and iOS).
+This plugin for [Flutter](https://flutter.io) adds the ability to change the status bar theme: light or dark (Android and iOS).
 It also provides the ability to change the navigation bar theme and color (Android only)
 
 <p align="center">
