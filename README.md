@@ -26,17 +26,20 @@ For each call, you can specify which platform you want to target (by default bot
 ScreenTheme.darkStatusBar(platform: Platform.Android);
 ```
 
-Each call returns a boolean, which is `true` when the platform and the OS version supports the feature.
+Each call returns a boolean, which is `true` when the platform and the OS version support the feature.
 For the navigation bar, all calls will throw a `MissingPluginException`.
 
 ## Status bar
 
 **Compatibility**: Android (6.0+) & iOS
+
 On Android, it will only work with Android 6.0 (Marshmallow) and above devices.
 
 
 ## Navigation bar
 
 **Compatibility**: Android only
+
 Android 5.0 (Lollipop) and above: color
+
 Android 8.0 (Oreo) and above: theme (dark/light)
