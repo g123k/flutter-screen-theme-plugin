@@ -135,7 +135,7 @@ class _MyAppState extends State<MyApp> {
   }
 
   enableDarkStatusBar() async {
-    await ScreenTheme.darkStatusBar(platform: Platform.Android);
+    await ScreenTheme.darkStatusBar();
     bool hasLightStatusBar = await ScreenTheme.hasALightStatusBar();
 
     setState(() {
